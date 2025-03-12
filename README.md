@@ -2,7 +2,7 @@
 
 A web application that searches for royalty-free images across multiple platforms including Pexels, Pixabay, Unsplash, and Wikipedia.
 
-![Screenshot](Screenshot from 2025-03-12 09-57-38.png)
+![Screenshot](screenshot.png)
 
 ## Features
 
@@ -93,16 +93,6 @@ cd royalty-free-search
    ```bash
    npm run serve
    ```
-
-## Docker Deployment (Optional)
-
-If you prefer using Docker:
-
-```bash
-docker-compose up -d
-```
-
-This will start both the backend and frontend services.
 
 ## API Keys
 
