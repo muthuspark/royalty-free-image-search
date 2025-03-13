@@ -104,6 +104,19 @@ You'll need to obtain API keys from the following services:
 
 Wikipedia API does not require an API key.
 
+## Docker Setup
+
+1. Install Docker and Docker Compose.
+
+2. Create a `.env` file in the root directory and add your API keys.
+
+3. Build and run the containers:
+   ```bash
+   docker-compose up --build
+   ```
+
+The backend will be available at `http://localhost:5002` and the frontend at `http://localhost:8081`.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
